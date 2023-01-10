@@ -1,0 +1,22 @@
+{
+  "name": "class2_studynote",
+  "version": "1.0.0",
+  "description": "정예반 2기 수업 필기노트 겸 과제 제출용 깃 레포지트리",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyowony/class2_Studynote.git"
+  },
+  "author": "이효원",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyowony/class2_Studynote/issues"
+  },
+  "homepage": "https://github.com/hyowony/class2_Studynote#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
