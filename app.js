@@ -2,6 +2,7 @@ const express = require("express");
 
 const app = express();
 const port = 3000;
+const goodsRouter = require("./routes/goods.js");
 
 app.use(express.json());
 
@@ -11,6 +12,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send("안녕하세요 홈페이지입니다.");
 });
+
+app.use("/api", goodsRouter);
 
 app.listen(port, () => {
   console.log(port, "서버 연결중");
